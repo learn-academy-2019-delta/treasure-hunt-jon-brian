@@ -5,10 +5,12 @@ import Square from './Square.js'
 class Board extends Component{
     constructor(props){
         super(props)
-        this.state = { spaces: [0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        this.state = { spaces: ["?", "?", "?", "?", "?", "?", "?", "?", "?"] }
     }
     handleClick = (squareIndex) =>{
-        alert(squareIndex)
+        let arr = this.state.spaces
+        arr[squareIndex] = "tree"
+        this.setState({spaces: arr})
     }
     render(){
         

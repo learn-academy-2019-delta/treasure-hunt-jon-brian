@@ -11,7 +11,7 @@ class Square extends Component{
         const { value, index } = this.props
         return(
             <div className="square" onClick={ this.handClick } > 
-            { value }{ index }
+            { value }
             </div>
             )
     }
