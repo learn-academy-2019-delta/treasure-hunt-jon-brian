@@ -37,22 +37,31 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
+  background: #4A3EF2;
 }
 
 #grid {
   display: flex;
   flex-direction: row;
-  width: 290px;
+  width: 255px;
   flex-wrap: wrap;
 }
 
 .square{
   height: 80px;
   width: 80px;
-  background: white;
+  background: black;
+  color: #7FFF00;
   border: 2px solid;
-  border-color: orange;
+  border-color: hotpink;
   text-align: center;
   vertical-align: center;
   line-height: 75px
+}
+
+.button{
+  background-color: #FF8300; 
+  border-radius: 4px;
+  border: none;
 }

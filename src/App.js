@@ -10,7 +10,7 @@ class App extends Component{
   render(){
     return (
       <div id="flex">
-      <h1>Treasure Hunt</h1>
+      <h1 style={{color:"#A7F432"}}>Treasure Hunt</h1>
       <div >
         <Board />
       </div>
